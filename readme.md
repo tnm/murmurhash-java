@@ -1,7 +1,7 @@
 murmurhash-java
 =================
 
-This is an implementation by Viliam Holub of the fast non-cryptographic **murmur hash** algorithm. 
+This is an implementation by Viliam Holub of the fast non-cryptographic **murmurhash2** algorithm. 
 
 It is written in Java and is implemented in both 32 and **64-bit** versions. 
 
