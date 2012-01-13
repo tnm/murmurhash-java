@@ -17,6 +17,8 @@ package ie.ucd.murmur;
  *
  */
 public final class MurmurHash {
+	
+	private MurmurHash() {}
 
 	/** Generates 32 bit hash from byte array of the given length and
 	 * seed.
