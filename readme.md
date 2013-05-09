@@ -13,11 +13,15 @@ building
 
 Build a package with `maven`:
 
-`mvn package`
+```
+mvn package
+```
 
 Run the tests:
 
-`mvn test`
+```
+mvn test
+```
 
 public api
 --------------
