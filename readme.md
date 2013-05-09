@@ -8,6 +8,17 @@ It is written in Java and is implemented in both 32 and **64-bit** versions.
 If you want the latest in the world of murmur, check out Guava's [Hashing](http://docs.guava-libraries.googlecode.com/git-history/v11.0/javadoc/com/google/common/hash/Hashing.html) class, 
 which has 32 and 128 bit implementations of **murmur3**.
 
+building
+----------
+
+Build a package with `maven`:
+
+`mvn package`
+
+Run the tests:
+
+`mvn test`
+
 public api
 --------------
 
