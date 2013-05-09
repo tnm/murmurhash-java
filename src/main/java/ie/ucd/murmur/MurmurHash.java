@@ -191,4 +191,3 @@ public final class MurmurHash {
         return hash64( text.substring( from, from+length));
     }
 }
-
