@@ -38,8 +38,6 @@
         </snapshotRepository>
     </distributionManagement>
 
-
-
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -48,7 +46,6 @@
         </dependency>
     </dependencies>
     
-
     <profiles>
         <profile>
             <id>sign</id>
