@@ -75,7 +75,7 @@ public final class MurmurHash {
      * @return 32 bit hash of the given array
      */
     public static int hash32(final byte[] data, int length) {
-        return hash32( data, length, 0x9747b28c); 
+        return hash32(data, length, 0x9747b28c); 
     }
 
 
@@ -87,7 +87,7 @@ public final class MurmurHash {
      */
     public static int hash32(final String text) {
         final byte[] bytes = text.getBytes(); 
-        return hash32( bytes, bytes.length);
+        return hash32(bytes, bytes.length);
     }
 
 
@@ -100,7 +100,7 @@ public final class MurmurHash {
      * @return 32 bit hash of the given string
      */
     public static int hash32(final String text, int from, int length) {
-        return hash32( text.substring( from, from+length));
+        return hash32(text.substring( from, from+length));
     }
     
 
@@ -162,7 +162,7 @@ public final class MurmurHash {
      * @return 64 bit hash of the given string
      */
     public static long hash64(final byte[] data, int length) {
-        return hash64( data, length, 0xe17a1465);
+        return hash64(data, length, 0xe17a1465);
     }
 
 
@@ -174,7 +174,7 @@ public final class MurmurHash {
      */
     public static long hash64(final String text) {
         final byte[] bytes = text.getBytes(); 
-        return hash64( bytes, bytes.length);
+        return hash64(bytes, bytes.length);
     }
 
 
@@ -187,6 +187,6 @@ public final class MurmurHash {
      * @return 64 bit hash of the given array
      */
     public static long hash64(final String text, int from, int length) {
-        return hash64( text.substring( from, from+length));
+        return hash64(text.substring( from, from+length));
     }
 }
