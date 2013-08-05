@@ -66,7 +66,6 @@ public final class MurmurHash {
         return h;
     }
     
-
     /** 
      * Generates 32 bit hash from byte array with default seed value.
      * 
@@ -78,7 +77,6 @@ public final class MurmurHash {
         return hash32(data, length, 0x9747b28c); 
     }
 
-
     /** 
      * Generates 32 bit hash from a string.
      * 
@@ -89,7 +87,6 @@ public final class MurmurHash {
         final byte[] bytes = text.getBytes(); 
         return hash32(bytes, bytes.length);
     }
-
 
     /** 
      * Generates 32 bit hash from a substring.
@@ -103,7 +100,6 @@ public final class MurmurHash {
         return hash32(text.substring( from, from+length));
     }
     
-
     /** 
      * Generates 64 bit hash from byte array of the given length and seed.
      * 
@@ -153,7 +149,6 @@ public final class MurmurHash {
         return h;
     }
     
-
     /** 
      * Generates 64 bit hash from byte array with default seed value.
      * 
@@ -165,7 +160,6 @@ public final class MurmurHash {
         return hash64(data, length, 0xe17a1465);
     }
 
-
     /** 
      * Generates 64 bit hash from a string.
      * 
@@ -176,7 +170,6 @@ public final class MurmurHash {
         final byte[] bytes = text.getBytes(); 
         return hash64(bytes, bytes.length);
     }
-
 
     /** 
      * Generates 64 bit hash from a substring.
